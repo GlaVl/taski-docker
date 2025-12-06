@@ -10,7 +10,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
 if not ALLOWED_HOSTS[0]:  # Если переменная пустая
-    ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'backend', '0.0.0.0']
+    ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'backend', '0.0.0.0', 'glz.hopto.org']
 
 
 # Application definition
